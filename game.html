@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="styles/gamePage.css">
+    <script src="scripts/constants.js"></script>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/accountService.js"></script>
+</head>
+<body>
+<div class="game_main_block" onload="initGamePage()">
+    <div class="game_header">
+        <h1 id="gameHeaderText"></h1>
+
+        <script>
+            initGamePage();
+        </script>
+
+        <div class="game_header_buttons">
+            <button class="logout_button" onclick="logout()">Logout</button>
+            <button class="start_game_button" onclick="startGame()">Start game!</button>
+        </div>
+    </div>
+
+    <canvas id="gameCanvas" width="1000" height="700"></canvas>
+</div>
+</body>
+</html>

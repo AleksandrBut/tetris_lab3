@@ -1,0 +1,28 @@
+.game_main_block {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.game_header_buttons {
+    flex-direction: row;
+}
+
+.logout_button {
+    background-color: #ff7f70;
+    padding: 0.5rem;
+    width: 45%;
+}
+
+.start_game_button {
+    background-color: #9fd07c;
+    padding: 0.5rem;
+    width: 45%;
+}
+
+#gameCanvas {
+    margin-top: 1%;
+    background-color: lightgrey;
+    border: 1px solid black;
+}

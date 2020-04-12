@@ -1,0 +1,24 @@
+.login_main_block {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.login_header {
+    margin-top: 10%;
+}
+
+.login_username_input {
+    font-size: large;
+    width: 15%;
+}
+
+.login_username_submit_button {
+    background-color: #9fd07c;
+    font-size: large;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 15%;
+}
+
